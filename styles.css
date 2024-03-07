@@ -1,0 +1,53 @@
+/*
+Global styles
+****************/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/*
+specific styles
+******************/
+body {
+    background-color: #efefef;
+}
+form {
+    width: 65%;
+    margin: 12px auto;
+    border: 1px solid #222;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding-bottom: 24px;
+}
+h1 {
+    text-align: center;
+    padding: 14px;
+    width: 100%;
+    background-color: #0080ff;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+label, input {
+    margin: 0 32px;
+    /*border: 1px solid #990000; */
+    
+} label {
+    padding: 2px;
+}
+input {
+    padding: 6px;
+    outline: #ccc solid 2px;
+    border-radius: 2px;
+}
+button {
+    width: 20%;
+    margin: 4px auto;
+    padding: 12px;
+    background-color: #0080ff;
+    cursor: pointer;
+    font-weight: bold;
+}
